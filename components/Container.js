@@ -20,6 +20,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
       <Head>
         <title>{meta.title}</title>
         {/* <meta content={BLOG.darkBackground} name="theme-color" /> */}
+        <meta name="baidu-site-verification" content="codeva-WkEAxF367W" />
         <meta name="robots" content="follow, index" />
         <meta charSet="UTF-8" />
         {BLOG.seo.googleSiteVerification && (
