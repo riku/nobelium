@@ -93,6 +93,7 @@ class MyDocument extends Document {
           {config.appearance === 'auto'
             ? (
             <>
+            <meta name="baidu-site-verification" content="codeva-WkEAxF367W" />
             <meta name="theme-color" content={config.lightBackground} media="(prefers-color-scheme: light)"/>
             <meta name="theme-color" content={config.darkBackground} media="(prefers-color-scheme: dark)"/>
             </>
