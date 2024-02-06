@@ -17,11 +17,6 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
   }
   return (
     <div>
-
-
-
-
-    
       <Head>
         <title>{meta.title}</title>
         {/* <meta content={BLOG.darkBackground} name="theme-color" /> */}
