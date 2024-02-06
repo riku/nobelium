@@ -19,6 +19,15 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
     <div>
       <Head>
         <title>{meta.title}</title>
+
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?26fa5056a82ad29bee851bbcd10375e3";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+
         {/* <meta content={BLOG.darkBackground} name="theme-color" /> */}
         <meta name="baidu-site-verification" content="codeva-WkEAxF367W" />
         <meta name="robots" content="follow, index" />
