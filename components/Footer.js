@@ -26,14 +26,3 @@ const Footer = ({ fullWidth }) => {
 }
 
 export default Footer
-
-
-export default function Matomo() {
-  return (
-    <div>
-      <!-- Matomo Image Tracker-->
-      <img referrerpolicy="no-referrer-when-downgrade" src="http://218.78.53.236:8000/matomo/matomo.php?idsite=2&amp;rec=1" style="border:0" alt="" />
-      <!-- End Matomo -->
-    </div>
-  );
-}
