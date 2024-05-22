@@ -17,9 +17,6 @@ const Footer = ({ fullWidth }) => {
         <div className="flex align-baseline justify-between flex-wrap">
           <p>
             © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
-
-            <img referrerpolicy="no-referrer-when-downgrade" src="http://218.78.53.236:8000/matomo/matomo.php?idsite=2&amp;rec=1" style="border:0" alt="" />
-
           </p>
           <Vercel />
         </div>
